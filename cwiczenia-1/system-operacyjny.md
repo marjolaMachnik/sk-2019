@@ -6,7 +6,7 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | centos 7 |
+| nazwa      | linux | Ubuntu |
 | program (parametry sieci)      |Oracle VirtualBOX |NAT|
 
 
@@ -17,9 +17,9 @@ Konfiguracja połączenia sieciowego
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
 | Maska podsieci      |255.255.0.0|  |
-| Brama      |169.254.0.0|  |
-| DNS 1   |10.10.0.8| |
-| DNS 2   |10.10.0.4| |
+| Brama      |169.254.0.0| route -n |
+| DNS 1   |10.10.0.8| route -n |
+| DNS 2   |10.10.0.4| route -n |
 
 Schemat sieci
 -------------
