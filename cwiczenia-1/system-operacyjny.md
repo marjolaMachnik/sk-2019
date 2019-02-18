@@ -6,8 +6,8 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | Ubuntu |
-| program (parametry sieci)      |Oracle VirtualBOX |NAT|
+| nazwa      | Linux | Ubuntu |
+| program (parametry sieci)      |Oracle VM VirtualBOX |NAT|
 
 
 Konfiguracja połączenia sieciowego
