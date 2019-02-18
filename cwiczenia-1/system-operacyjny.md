@@ -16,10 +16,10 @@ Konfiguracja połączenia sieciowego
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
-| Maska podsieci      |255.255.0.0|  |
+| Maska podsieci      |255.255.0.0| route -n |
 | Brama      |169.254.0.0| route -n |
-| DNS 1   |10.10.0.8| route -n |
-| DNS 2   |10.10.0.4| route -n |
+| DNS 1   |10.10.0.8| Network Settings |
+| DNS 2   |10.10.0.4| Network Settings |
 
 Schemat sieci
 -------------
