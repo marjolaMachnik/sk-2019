@@ -7,7 +7,7 @@ Charakterystyka systemu operacyjnego
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
 | nazwa      | linux | centos 7 |
-| program (parametry sieci)      | niewiem |  |
+| program (parametry sieci)      |Oracle VirtualBOX |NAT|
 
 
 Konfiguracja połączenia sieciowego
