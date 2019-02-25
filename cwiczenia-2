@@ -49,8 +49,7 @@ Polecenie
 ```
 
 Efekt
-```
-```
+
 
 Nowa statyczna konfiguracja 
 
@@ -68,12 +67,13 @@ Nowa statyczna konfiguracja
 Weryfikacja połączenia
 
 Polecenie
-```
-```
+ip a
+ifdown
+ifup
 
 Efekt
-```
-```
+Informacja o sieci
+Włączenie/wyłączenie karty sieciowej
 
 Warto wiedzieć
 --------------
@@ -81,7 +81,7 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
+| Lokalizacja pliku z konfiguracją sieci|ip a | |
 | UP -> Wyłączenie interfejsu sieciowego| | |
 | DOWN -> Włączenie interfejsu sieciowego| | |
 | Sprawdzenie obecnych parametrów | | |
