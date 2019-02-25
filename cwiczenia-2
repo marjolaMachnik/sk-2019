@@ -12,8 +12,8 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | | |
-| MASKA  | | |
+| IP - address  |10.02.15 | |
+| MASKA  |255.255.0.0 | |
 |   |  | |
 | PC 2  |  | |
 | IP - address  | | |
