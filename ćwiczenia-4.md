@@ -15,11 +15,10 @@ ip
 |---------------|:--------------|:--------------|
 |               |``ip route show``|``pokazanie tablicy routingu``| 
 |   ``route``    |       ``    ip    ``                  | |
-|`` ip route add default via 10.0.10.1 ``  |   ``ip route add``             |``dodanie ścieżki`` |
-|   ``ip route get 10.10.15``    |    `` ip route get``                          |`` sprawdzenie gdzie adres zostanie wysłany`` |
+|`` ip route add default via 10.0.10.1 ``  |   ``ip route add/del``             |``dodanie/usunięcie ścieżki`` |
+|   ``ip route get 10.10.15``    |    `` ip route get``                          |`` sprawdzenie gdzie adres/pakiet zostanie wysłany`` |
 |   ``ip addr``    |      ``ip addr``                          |``przypisuje adres IP do interfejsu `` |
 |   ``ip forward``    |      ``ip forward``                          |``forwardowanie pakietu`` |
-
 
 
 
