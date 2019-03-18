@@ -12,10 +12,14 @@ Konfiguracja route
 ip 
 -------------------------
 | subcommand    |  polecenie   | opis  |
-| ------------- |:-------------| :---------------| 
+| ------------- |ip route show|pokazanie tablicy routingu| 
 |   ``route``    |                               | |
 |               |   ``ip route add``             | |
+
 ip addr
+ - 
+ip route add default via 10.0.10.1 dodanie 
+ip route get 10.10.15 sprawdzenie gdzie adres zostanie wysłany
 
 Zadanie
 ------------
