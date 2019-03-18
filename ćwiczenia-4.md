@@ -12,6 +12,7 @@ Konfiguracja route
 ip 
 -------------------------
 | subcommand    |  polecenie   | opis  |
+|---------------|:--------------|:--------------|
 |               |``ip route show``|``pokazanie tablicy routingu``| 
 |   ``route``    |                               | |
 |`` ip route add default via 10.0.10.1 ``  |   ``ip route add``             |``dodanie ścieżki`` |
