@@ -59,7 +59,11 @@ Polecenie
 Efekt
 ```
 ```
-!Dopisane: 
+
+Dopisane:
+-------------------------
+|polecenia|
+|---------|
 |iface enp0s8 inet static|
 |address 192.168.200.1|
 |netmask 255.255.255.0|
