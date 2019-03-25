@@ -47,7 +47,15 @@ routing
 |``192.168.0.192/27``|192.168.0.193|enp0s10|
 
 
+auto enp0s3
+auto enp0s8
 
+
+iface enp0s8 inet static
+address 192.168.200.1
+netmask 255.255.255.0
+up ip route add  192.168.0.0/24 via 192.168.200.2
+down ip route del 192.168.0.0/24
 
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem
